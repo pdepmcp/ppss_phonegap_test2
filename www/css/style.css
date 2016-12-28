@@ -40,10 +40,73 @@ table {
 }
 /* ============================================================ */
 
-body{
-background: rosybrown;
+body#splash{
+	background-color: #ef4d4d;
+	width: 100%;
+	height: 100%;
 }
 
-body div{
-	margin: 20px;
+body#splash p{
+	font-family: arial;
+	color: white;
+	font-size: 10px;
+	margin-top: 10px;
+	text-align: center;
 }
+
+.insplash{
+	height: 490px;
+	position: absolute;
+	top: 50%;
+	margin-top: -245px;
+	width: 100%;
+	text-align: center;
+}
+
+
+.insplash .logo img{
+	width: 110px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.insplash a {
+display: block;
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #fafafa);
+  background-image: -moz-linear-gradient(top, #ffffff, #fafafa);
+  background-image: -ms-linear-gradient(top, #ffffff, #fafafa);
+  background-image: -o-linear-gradient(top, #ffffff, #fafafa);
+  background-image: linear-gradient(to bottom, #ffffff, #fafafa);
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 3px 0px #cb2121;
+  -moz-box-shadow: 2px 3px 0px #cb2121;
+  box-shadow: 2px 3px 0px #cb2121;
+  font-family: Georgia;
+  color: #a92222;
+  font-size: 28px;
+  padding: 15px 0 15px 0;
+  text-decoration: none;
+	width: 75%;
+	margin: 130px auto 0 auto;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+
+.insplash .footer img{
+	width: 54px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	margin-left: -27px;
+}
+
+
