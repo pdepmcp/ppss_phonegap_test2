@@ -1,0 +1,31 @@
+section#body{
+	width:100vw;
+	overflow-x: hidden;
+}
+
+
+section#body .doublecontent{
+	transition: right 2s,left 2s;
+	position:relative;
+	top:0;
+	left:0;
+	width:202vw;
+	border: 1px solid red;
+	min-height: 100px;
+
+}
+section#body .doublecontent.shift{
+	left: -100vw;
+}
+section#body .doublecontent .panel{
+	/*display:inline-block;*/
+	float:left;
+	border: 1px solid green;
+	top:0px;
+	width:100vw;
+	
+}
+.clear{
+	clear:both;
+}
+
